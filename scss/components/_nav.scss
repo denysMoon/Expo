@@ -1,0 +1,28 @@
+.nav{
+  height: 426px;
+  background-color: #2378FC;
+}
+.nav__block{
+  height: 276px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 75px;
+}
+.nav__block_item{
+  height: 275px;
+}
+h2{
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.nav__block_item>ul>li>a{
+  font-size: 16px;
+}
+.nav__block_item>ul>li{
+  line-height: 40px;
+}
+.nav__block_item ul{
+  padding-top: 20px;
+}

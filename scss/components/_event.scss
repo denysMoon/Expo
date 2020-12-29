@@ -1,0 +1,29 @@
+.event{
+  height: 984px;
+  background: #FFC41E;
+}
+.event__header>a{
+  margin-top: 27px;
+  color: black;
+  font-size: 21px;
+  font-weight: 500;
+}
+.event__header>h2{
+  color: black;
+}
+.event__header{
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.event__calendar_item{
+  width: 350px;
+  height: 370px;
+}
+.event__calendar{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
